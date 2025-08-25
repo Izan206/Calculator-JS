@@ -41,3 +41,11 @@ button {
     background-color: hsl(0, 0%, 20%);
     color: white;
 }
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+
+button:active {
+    background-color: rgb(131, 108, 17);
+}
