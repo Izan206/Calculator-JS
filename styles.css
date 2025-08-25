@@ -44,8 +44,22 @@ button {
 
 button:hover {
     background-color: darkgoldenrod;
+    transition: all 0.25s ease;
 }
 
 button:active {
     background-color: rgb(131, 108, 17);
+}
+
+.operator-btn {
+    background-color: rgba(100, 255, 252, 0.28);
+}
+
+.operator-btn:hover {
+    background-color: aqua;
+   transition: all 0.25s ease;
+}
+
+.operator-btn:active{
+    background-color: rgb(3, 52, 52);
 }
