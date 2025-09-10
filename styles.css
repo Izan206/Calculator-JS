@@ -1,6 +1,7 @@
 body {
     background-color: rgb(229, 231, 197);
 }
+
 button {
     width: 100px;
     height: 100px;
@@ -41,16 +42,17 @@ button {
     text-align: left;
     border:none;
     background-color: hsl(0, 0%, 20%);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 button:hover {
     background-color: darkgoldenrod;
     transition: all 0.25s ease;
+    
 }
 
 button:active {
-    background-color: rgb(131, 108, 17);
+    background-color: rgb(255, 255, 255);
 }
 
 .operator-btn {
